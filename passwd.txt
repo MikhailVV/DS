@@ -1,0 +1,52 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+saslauth:x:499:76:Saslauthd user:/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+zookeeper:x:498:499:ZooKeeper:/var/lib/zookeeper:/sbin/nologin
+cloudera-scm:x:497:498:Cloudera Manager:/var/lib/cloudera-scm-server:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+solr:x:496:496:Solr:/var/lib/solr:/sbin/nologin
+hbase:x:495:495:HBase:/var/lib/hbase:/sbin/nologin
+sentry:x:494:494:Sentry:/var/lib/sentry:/sbin/nologin
+hive:x:493:493:Hive:/var/lib/hive:/sbin/nologin
+hdfs:x:492:491:Hadoop HDFS:/var/lib/hadoop-hdfs:/bin/bash
+yarn:x:491:490:Hadoop Yarn:/var/lib/hadoop-yarn:/bin/bash
+impala:x:490:489:Impala:/var/lib/impala:/bin/bash
+mapred:x:489:488:Hadoop MapReduce:/var/lib/hadoop-mapreduce:/bin/bash
+hue:x:488:487:Hue:/usr/lib/hue:/sbin/nologin
+sqoop:x:487:486:Sqoop:/var/lib/sqoop:/sbin/nologin
+flume:x:486:485:Flume:/var/lib/flume-ng:/sbin/nologin
+spark:x:485:484:Spark:/var/lib/spark:/sbin/nologin
+sqoop2:x:484:486:Sqoop 2 User:/var/lib/sqoop2:/sbin/nologin
+oozie:x:483:483:Oozie User:/var/lib/oozie:/bin/false
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+kms:x:482:482:Hadoop KMS:/var/lib/hadoop-kms:/bin/bash
+llama:x:500:481:Llama:/var/lib/llama:/bin/bash
+httpfs:x:481:480:Hadoop HTTPFS:/var/lib/hadoop-httpfs:/bin/bash
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+rtkit:x:480:477:RealtimeKit:/proc:/sbin/nologin
+pulse:x:479:476:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+cloudera:x:501:501::/home/cloudera:/bin/bash
+
